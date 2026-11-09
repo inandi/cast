@@ -1,3 +1,34 @@
+# Release v1.0.0 - 2026-11-10
+
+CAST is out of beta. This is the first stable release: the extension is now called **CAST**, and it works the same as 0.1.1. Your saved scripts carry over when you update, with nothing to migrate.
+
+## New Features
+- NA
+
+## Improvements
+- **Out of beta:** the extension is now named **CAST** instead of **CAST (Beta)** in Chrome and on the Chrome Web Store.
+
+## Bug Fixes
+- NA
+
+## Deprecated Features
+- NA
+
+## Known Issues
+- **Google Chrome only.** Firefox and Safari aren't supported.
+- **Sites with strict security settings** (no `unsafe-eval`, such as GitHub) block snippets. CAST shows a clear message, but the snippet doesn't run.
+- **No way to edit a saved script yet.** To change one, copy it, delete it, and add it again.
+- **Shortcut numbering:** `Alt+Shift+1/2/3` run the oldest three scripts for the current site. The popup doesn't yet show which script has which number, and deleting a script moves the later ones up.
+- **Import replaces everything:** it overwrites all saved scripts without a preview, so export a backup first.
+- **Ports are ignored:** `localhost:3000` and `localhost:8080` share one script list.
+- **Import may close the popup:** on some systems the popup can close when the file picker opens. If that happens, try the import again.
+- **Notifications can cover the Add button** for a few seconds while they're showing.
+
+## Acknowledgments
+- Thanks to everyone who tested the CAST beta. Please send feedback and bug reports to gobinda.nandi.public@gmail.com.
+
+---
+
 # Release v0.1.1 - 2026-10-29
 
 DevRunner is now **CAST** (Custom Automation Snippet Trigger). This beta adds copy-to-clipboard, async snippets, and feedback for keyboard shortcuts, and gives the popup a new design. Your saved scripts carry over when you update, with nothing to migrate.
