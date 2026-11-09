@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "CAST (Beta)",
-  "version": "0.1.1",
-  "version_name": "0.1.1 beta",
-  "description": "Custom Automation Snippet Trigger: save and run your own JavaScript snippets per site, in one click or a hotkey. Beta.",
+  "name": "CAST",
+  "version": "1.0.0",
+  "description": "Custom Automation Snippet Trigger: save and run your own JavaScript snippets per site, in one click or a hotkey.",
   "permissions": [
     "activeTab",
     "scripting",

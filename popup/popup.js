@@ -8,7 +8,7 @@
  *
  * @author Gobinda Nandi <gobinda.nandi.public@gmail.com>
  * @since 0.1.0
- * @version 0.1.1
+ * @version 1.0.0
  * @copyright (c) 2026 Gobinda Nandi
  */
 
