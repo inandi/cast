@@ -2,17 +2,8 @@
 
 CAST is out of beta. This is the first stable release: the extension is now called **CAST**, and it works the same as 0.1.1. Your saved scripts carry over when you update, with nothing to migrate.
 
-## New Features
-- NA
-
 ## Improvements
 - **Out of beta:** the extension is now named **CAST** instead of **CAST (Beta)** in Chrome and on the Chrome Web Store.
-
-## Bug Fixes
-- NA
-
-## Deprecated Features
-- NA
 
 ## Known Issues
 - **Google Chrome only.** Firefox and Safari aren't supported.
@@ -71,4 +62,3 @@ DevRunner is now **CAST** (Custom Automation Snippet Trigger). This beta adds co
 - Thanks to everyone testing the CAST beta. Please send feedback and bug reports to gobinda.nandi.public@gmail.com.
 
 ---
-
