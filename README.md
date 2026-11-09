@@ -6,7 +6,7 @@ Lightweight **Manifest V3** Chrome extension for storing and running **site-spec
 
 **Author:** Gobinda Nandi \<gobinda.nandi.public@gmail.com\>  
 **License:** [MIT](LICENSE) · **Privacy:** [PRIVACY.md](PRIVACY.md)  
-**Version:** 0.1.1 (beta)
+**Version:** 1.0.0
 
 Built for **Google Chrome**.
 
@@ -128,21 +128,15 @@ Bump `version` in both `manifest.json` and `package.json` before each store uplo
 
 ## Chrome Web Store (short checklist)
 
-Current build is **beta** (`0.1.1` / display name **CAST (Beta)**). Chrome versions must be numeric (no `1.0.0-beta` tag).
-
-### Beta (recommended first publish)
+Chrome versions must be numeric (`1.0.0`, not `1.0.0-beta`).
 
 1. `npm run package`
-2. [Developer Dashboard](https://chrome.google.com/webstore/devconsole) → **New item** → upload `dist/cast-chromium.zip`
+2. [Developer Dashboard](https://chrome.google.com/webstore/devconsole) → open the CAST item (or **New item** on first publish) → upload `dist/cast-chromium.zip`
 3. Listing: screenshots, description, category (**Developer Tools**)
 4. Privacy practices → link [PRIVACY.md](PRIVACY.md)
 5. Justify `activeTab`, `scripting`, `storage`
-6. Visibility: **Unlisted** (share the link with testers only) — or **Private** if you use a Google Group
+6. Visibility: **Public**
 7. Submit for review
-
-### Later: public 1.0
-
-Bump `manifest.json` + `package.json` to `1.0.0`, rename to `CAST` (drop Beta), re-package, upload a new version, set visibility to **Public**.
 
 ## Notes
 
